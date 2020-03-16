@@ -1,0 +1,196 @@
+.icon-user{
+height: 20px;
+width: 20px;
+
+}
+
+.buttonajout {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  border-color: red ;
+  color: #fff;
+  padding: 8px;
+ background-color: #107710;
+  padding-top: 20px; 
+  padding-left: 50px;
+  padding-bottom:  20px; 
+  padding-right:  50px;
+  margin-left: 20px; 
+}
+.card-header{
+  background-color: #222222 ;
+    height: 70px;
+    color: #FFFFFF;
+    padding-top: 10px; 
+    
+border-radius: 8px;
+    margin-bottom : 10px;
+    margin-top: 20px;
+}
+main {
+  background-color: #2C3845;
+  position: absolute;
+
+}
+
+td, tr {
+  padding: 15px 15px 0;
+  text-align: center;
+}
+table{
+  color : #F4F4F4 ;
+   width:1120px;
+
+}
+thead th {
+  background-color: #202932;
+  color: #fff;
+  border: 1px solid #202932;
+}
+
+tfoot th {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #b8c4d2;
+}
+.button {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  background-color: #107710;
+}
+.button:hover {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  background-color: #0FB20F;
+}
+.button1 {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  background-color: #A82222;
+}
+.button1:hover {
+  line-height: 1;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  background-color: red;
+}
+
+
+
+@media (min-width: 460px) {
+  td {
+    text-align: left;
+  }
+  td:before {
+    display: inline-block;
+    text-align: right;
+    width: 140px;
+  }
+
+  .select {
+    padding-left: 160px;
+  }
+}
+@media (min-width: 720px) {
+  table {
+    display: table;
+    
+  }
+
+  tr {
+    display: table-row;
+  }
+
+  td, th {
+    display: table-cell;
+  }
+
+  tbody {
+    display: table-row-group;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  td {
+    border: 1px solid #28333f;
+  }
+  td:before {
+    display: none;
+  }
+
+  td, th {
+    padding: 10px;
+  }
+
+  tr:nth-child(2n+2) td {
+    background-color: #242e39;
+  }
+
+  tfoot th {
+    display: table-cell;
+  }
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+dd {
+  margin: 0 0 40px 0;
+  font-size: 1.8rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ac2647;
+  box-shadow: 0 1px 0 #c52c51;
+}
+  .select {
+    padding: 10px;
+  }
+.action{
+  width: 150px;
+}
+.card-body{
+  margin-left: 20px;
+
+
+}
+h2{
+  text-align: center;
+}
+.card-body2{
+  margin-left: 20%;
+
+}
+
